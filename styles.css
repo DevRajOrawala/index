@@ -1,0 +1,14 @@
+html{
+    background-color: #FFA500;
+}
+
+.heading{
+    font-size:xx-large;
+    font-family: 'Pacifico', cursive;
+    color: #551A8B;
+}
+
+.socialmedia {
+    height: 40px;
+    width: auto;
+}

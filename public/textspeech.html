@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="../styles.css"/>
+    <link rel="icon" href="assets/images/Favicon.png">
+    <style>
+        div.middle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <title>Text to Speech</title>
+</head>
+<body>
+    <div class="middle">
+    <input type="text" id="text-input" placeholder="Enter text...">
+    </div>
+    <div class="middle">
+    <button id="speak-button">Speak</button>
+    </div>
+    <div id="spoken-text"></div>
+    <script src="../textspeech.js"></script>
+</body>
+</html>
